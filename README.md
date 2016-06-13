@@ -20,6 +20,7 @@ Instructions:
     ==> default: Notice: /Stage[main]/Main/File[/tmp/hello]/ensure: defined content as '{md5}a7966bf58e23583c9a5a4059383ff850'
     ==> default: Notice: Finished catalog run in 0.03 seconds
 
+
   * When this completes, run `vagrant ssh`
     * This will launch an SSH session to connect to the new guest machine
   * From the SSH session, run `cat /tmp/hello`
@@ -28,5 +29,6 @@ Instructions:
 
     $ cat /tmp/hello 
     Hello, world
+
 
   * You can now close the SSH session and run `vagrant halt` to shut down the guest machine
