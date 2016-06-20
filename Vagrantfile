@@ -3,6 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise64"
+  config.vm.hostname = "server1"
 
   config.vm.provision "shell", path: "bootstrap/bootstrap-puppet.sh"
   config.vm.provision "puppet"
