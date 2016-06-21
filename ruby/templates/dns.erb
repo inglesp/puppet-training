@@ -1,0 +1,3 @@
+<% @dns_config.each do |record| -%>
+<%= record["name"] %> | <%= record["type"] %> | <%= record["priority"] %> | <%= record["value"] %>
+<% end -%>

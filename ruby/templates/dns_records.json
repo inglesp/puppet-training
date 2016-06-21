@@ -1,0 +1,70 @@
+{
+    "dns_config": [
+        {
+            "name": "@",
+            "type": "A",
+            "priority": "NA",
+            "value": "216.239.32.21"
+        },
+        {
+            "name": "@",
+            "type": "A",
+            "priority": "NA",
+            "value": "216.239.34.21"
+        },
+        {
+            "name": "@",
+            "type": "A",
+            "priority": "NA",
+            "value": "216.239.36.21"
+        },
+        {
+            "name": "@",
+            "type": "A",
+            "priority": "NA",
+            "value": "216.239.38.21"
+        },
+        {
+            "name": "@",
+            "type": "MX",
+            "priority": "1",
+            "value": "ASPMX.L.GOOGLE.COM."
+        },
+        {
+            "name": "@",
+            "type": "MX",
+            "priority": "5",
+            "value": "ALT1.ASPMX.L.GOOGLE.COM."
+        },
+        {
+            "name": "@",
+            "type": "MX",
+            "priority": "5",
+            "value": "ALT2.ASPMX.L.GOOGLE.COM."
+        },
+        {
+            "name": "@",
+            "type": "MX",
+            "priority": "10",
+            "value": "ASPMX2.GOOGLEMAIL.COM."
+        },
+        {
+            "name": "@",
+            "type": "MX",
+            "priority": "10",
+            "value": "ASPMX3.GOOGLEMAIL.COM."
+        },
+        {
+            "name": "mail",
+            "type": "CNAME",
+            "priority": "NA",
+            "value": "ghs.googlehosted.com."
+        },
+        {
+            "name": "www",
+            "type": "CNAME",
+            "priority": "NA",
+            "value": "ghs.googlehosted.com."
+        }
+    ]
+}
